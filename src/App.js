@@ -9,7 +9,7 @@ export default function App() {
       <h2>NIGHT LIGHT IS {lightoff ? 'ON' : 'OFF'}</h2>
     <text>counter={count}</text>
     <br></br>
-    <button onClick={()=> setCount(++count)}>UPDATE COUNTER</button>
+    <button onClick={()=> setCount(++count)}>UPDATE COUNTER::</button>
     <button onClick={()=>setlightoff(!lightoff)}>TURN NIGHT LIGHT ON/OFF</button>
     </div>
   );
